@@ -16,11 +16,11 @@ These are our favorite public DNS resolvers based on their privacy and security 
 | DNS Provider | Privacy Policy | Protocols | Logging | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtering |
 | ------------ | -------------- | --------- | ------- | -------------------------------------------------------------- | --------- |
 | [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html) | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Some[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS)
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT | Some[^2] | No | Based on server choice.|
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Cleartext <br> DoH/3 <br> DoT | Some[^2] | No | Based on server choice.|
 | [**Control D Free DNS**](https://controld.com/free-dns) | [:octicons-link-external-24:](https://controld.com/privacy) | Cleartext <br> DoH/3 <br> DoT <br> DoQ | Optional[^3] | No | Based on server choice. |
-| [**dns0.eu**](https://www.dns0.eu/) | [:octicons-link-external-24:](https://www.dns0.eu/privacy) | Cleartext <br> DoH/3 <br> DoH <br> DoT <br> DoQ | No | Anonymized | Based on server choice. |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/) | DoH <br> DoT | No[^4] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)
-| [**Quad9**](https://quad9.net) | [:octicons-link-external-24:](https://quad9.net/privacy/policy/) | Cleartext <br> DoH <br> DoT <br> DNSCrypt | Some[^5] | Optional | Based on server choice, malware blocking by default. |
+| [**dns0.eu**](https://dns0.eu) | [:octicons-link-external-24:](https://dns0.eu/privacy) | Cleartext <br> DoH/3 <br> DoH <br> DoT <br> DoQ | No | Anonymized | Based on server choice. |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy) | DoH <br> DoT | No[^4] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)
+| [**Quad9**](https://quad9.net) | [:octicons-link-external-24:](https://quad9.net/privacy/policy) | Cleartext <br> DoH <br> DoT <br> DNSCrypt | Some[^5] | Optional | Based on server choice, malware blocking by default. |
 
 [^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
@@ -83,7 +83,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 **Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
 
-[:octicons-home-16: Homepage](https://controld.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=Documentation}
 
