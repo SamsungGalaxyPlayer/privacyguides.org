@@ -86,6 +86,19 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 [:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
+- [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
+- [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
+- [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
+- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases/tag/v1.3.5)
+
+</details>
 
 </div>
 
@@ -108,7 +121,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 - [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
 - [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
 - [:simple-linux: Linux](https://github.com/nextdns/nextdns/wiki)
-- [:simple-appstore:](https://apps.apple.com/app/nextdns/id1463342498)
+- [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
 - [:simple-github: GitHub](https://github.com/nextdns/nextdns/releases)
 
 </details>
